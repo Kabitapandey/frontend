@@ -1,0 +1,52 @@
+.header-container {
+  background-image: url("./img/29.jpeg");
+  height: 300px;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 2%;
+  color: white;
+}
+.blog-topic {
+  font-weight: bold;
+  color: black;
+  font-size: 1.2em;
+  text-transform: capitalize;
+}
+
+.blog-topic:hover {
+  text-decoration: none;
+}
+
+.business-add {
+  background-color: teal;
+  padding: 3%;
+  color: white;
+}
+
+.course-add {
+  background-color: palevioletred;
+  padding: 3%;
+  color: white;
+}
+
+#search-input {
+  width: 500px;
+}
+
+@media screen and (max-width: 1350px) {
+  #search-input {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  #search-input {
+    width: 200px;
+  }
+}
+@media screen and (max-width: 1050px) {
+  #search-input {
+    width: 100px;
+  }
+}

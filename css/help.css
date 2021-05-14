@@ -1,0 +1,13 @@
+.header-container {
+  background: linear-gradient(to bottom, #e03b8b, #6a1b4d);
+  padding: 5%;
+  color: white;
+}
+
+.card-link {
+  color: black;
+}
+
+.card-link:hover {
+  color: black;
+}

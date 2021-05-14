@@ -1,0 +1,123 @@
+.img1 {
+  height: 100%;
+  border-radius: 50%;
+  width: 100%;
+}
+
+.header-footer {
+  background-color: rgb(238, 234, 234);
+  padding: 2%;
+  margin-top: 2%;
+}
+.img-container {
+  margin-top: 2%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 780px) {
+  .img1 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .img1 {
+    height: 50%;
+  }
+}
+
+.btn-container {
+  margin-top: 2%;
+}
+
+.filter-btn {
+  padding: 1%;
+  border: none;
+}
+.card {
+  margin-top: 2%;
+  padding: 2%;
+}
+
+.course-card {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  color: black;
+}
+
+.course-links:hover {
+  text-decoration: none;
+}
+
+.category-container {
+  margin-top: 2%;
+}
+.category-card {
+  overflow: hidden;
+  color: black;
+}
+
+img {
+  width: 100%;
+  height: 200px;
+}
+
+.business-container {
+  background-color: teal;
+  padding: 5%;
+  color: white;
+  font-style: bold;
+}
+.business {
+  position: relative;
+  padding: 2% 0 2% 0;
+  margin: 3% 0 3% 0;
+}
+
+.business-img {
+  width: 20%;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+  bottom: 0.2%;
+  left: 60%;
+}
+
+.instructor-container {
+  margin: 2% 0 2% 0;
+  padding: 3%;
+}
+
+.instructor-img {
+  height: 100%;
+}
+
+#search-input {
+  width: 500px;
+}
+
+@media screen and (max-width: 1000px) {
+  .business-img {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1350px) {
+  #search-input {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  #search-input {
+    width: 200px;
+  }
+}
+@media screen and (max-width: 1050px) {
+  #search-input {
+    width: 100px;
+  }
+}

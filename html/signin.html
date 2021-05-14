@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+     <!-- Latest compiled and minified CSS -->
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+     <!-- jQuery library -->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+     
+     <!-- Popper JS -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+     
+     <!-- Latest compiled JavaScript -->
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+     
+     <!-- fontawesome -->
+     <script src="https://kit.fontawesome.com/8cdb96dce1.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+
+    <!-- css -->
+    <style>
+        #name,#email,#pwd{
+            height: 60px;
+        }
+
+        #search-input {
+        width: 500px;
+      }
+
+      @media screen and (max-width: 1350px) {
+        #search-input {
+          width: 300px;
+        }
+      }
+
+      @media screen and (max-width: 1150px) {
+        #search-input {
+          width: 200px;
+        }
+      }
+      @media screen and (max-width: 1050px) {
+        #search-input {
+          width: 100px;
+        }
+      }
+
+    </style>
+    <!-- end of css -->
+    
+</head>
+<body>
+     <!-- navbar -->
+     <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      
+      <a class="navbar-brand" style="color: blue; font-weight:bold;" href="home.html">Isquare INnovation</a>
+      
+
+  <!-- Brand -->
+  
+ 
+
+  <!-- Toggler/collapsibe Button -->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon" style="color: black;"></span>
+  </button>
+
+  <!-- Navbar links -->
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+
+     
+    <ul class="navbar-nav justify-content-between w-100">
+        <li class="nav-item dropdown">
+          <a id="navbardrop" class="nav-link" data-toggle="dropdown">Explore</a>
+          <div class="dropdown-menu">
+              <a class="dropdown-item " href="category.html">Link 1</a>
+              <a class="dropdown-item" href="category.html">Link 2</a>
+              <a class="dropdown-item" href="category.html">Link 3</a>
+            </div>
+        </li>
+  
+    
+
+<li class="nav-item">  
+  <div class="input-group">
+     
+    <input type="text" class="form-control" id="search-input" placeholder="Search">
+    <div class="input-group-append" >
+        
+      <span class="input-group-text">
+          <i class="fas fa-search"></i>
+      </span>
+    </div>
+  </div>
+</li>
+
+       
+        <li class="nav-item">
+          <a class="nav-link"  href="business.html">Udemy for a business</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link"  href="teach.html">Teach on Udemy</a>
+        </li>
+        <li class="nav-item">
+          <a href="cart.html" class="fas fa-cart-plus nav-link" style="color: gray; font-size: 1em;"></a> 
+         </li>
+        <li class="nav-item">
+          <a class="nav-link" style="color: blue;"  href="login.html">LogIn</a>
+        </li>
+        <li class="nav-item">
+          <a href="signin.html"><button class="btn btn-primary">Sign In</button></a> 
+         </li>
+        
+      </ul>
+
+   </div>
+</nav>
+<!-- end of navbar -->       
+
+<!-- sign up form -->
+<div class="container mt-5">
+ <div class="row">
+     <div class="col-sm-4"></div>
+     <div class="col-sm-12 col-md-6 col-lg-4">
+        <p class="font-weight-bold">Sign Up and Start Learning!</p>
+<hr>
+        <form action="">
+            <div class="form-group">
+                <input type="email" class="form-control" placeholder="Enter full name" id="name">
+              </div>
+            <div class="form-group">
+              <input type="email" class="form-control" placeholder="Enter email" id="email">
+            </div>
+            <div class="form-group">
+              <input type="password" class="form-control" placeholder="Enter password" id="pwd">
+            </div>
+            <div class="form-group form-check">
+              <label class="form-check-label">
+                <input class="form-check-input" type="checkbox"> Yes! I want to get the most out of Udemy by receiving emails with exclusive deals, personal recommendations and learning tips!
+              </label>
+            </div>
+            <button type="submit" class="btn btn-danger btn-block p-2">Submit</button>
+          </form>
+          <hr>
+          <p>Already have an account?<a href="login.html">Login</a></p>
+     </div>
+     <div class="col-sm-4"></div>
+ </div>
+    
+</div>
+<!-- end of signup form -->
+
+      <!-- footer -->
+<hr>
+<div class="container-fluid mt-5">
+    <div class="row">
+    <div class="col-sm-2">
+      <a href="business.html">Udemy for Business</a>
+      <br>
+      <a href="teach.html">Teach on Udemy</a>
+      <br>
+  
+    </div>
+    
+    <div class="col-sm-2">
+      <a href="blog.html">Blog</a>
+      <br>
+      <a href="help.html">Help and Support</a>
+      <br>
+     
+    </div>
+    
+    
+    <div class="col-sm-2">
+      <a href="terms.html">Terms</a>
+      <br>
+      <a href="featuredCourses.html">Featured Courses</a>
+      <br>
+      <a href="privacy.html">Privacy Policy</a>
+      <br>
+     
+    </div>
+    
+    
+    
+    </div>
+    </div>
+    <!-- end of footer -->
+
+</body>
+</html>

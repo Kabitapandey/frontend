@@ -1,0 +1,47 @@
+.design-navbar {
+  height: 20px;
+}
+.site-nav {
+  height: 50px;
+}
+@media screen and (max-width: 1000px) {
+  .design-navbar {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .site-nav {
+    height: 100%;
+  }
+}
+
+.course-card {
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.img1 {
+  overflow: hidden;
+}
+
+.collapse-header {
+  cursor: pointer;
+}
+
+.fas {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 900px) {
+  .sub-function {
+    display: none;
+  }
+}
+
+.course-card {
+  overflow: hidden;
+}

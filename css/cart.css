@@ -1,0 +1,26 @@
+.header-container {
+  padding: 3%;
+  background-color: black;
+  color: white;
+}
+
+#search-input {
+  width: 500px;
+}
+
+@media screen and (max-width: 1350px) {
+  #search-input {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  #search-input {
+    width: 200px;
+  }
+}
+@media screen and (max-width: 1050px) {
+  #search-input {
+    width: 100px;
+  }
+}
